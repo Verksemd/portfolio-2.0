@@ -70,6 +70,10 @@ body {
   text-align: left;
   background-color: #fff;
 }
+html, body {
+  width: auto!important;
+  overflow-x: hidden!important;
+}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
