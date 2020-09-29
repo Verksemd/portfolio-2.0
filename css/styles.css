@@ -10246,7 +10246,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../img/bg.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../img/bg_about.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10395,8 +10395,31 @@ body {
   font-size: 40px;
   color: #fff;
 }
+
 .btn-circle:hover {
   outline: 0;
   color: #fff;
   background: rgba(255,255,255,.1);
 }
+
+.h1_name {
+  transform: translate(0px,120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.h1_name._active {
+  transform: translate(0px,0px);
+  opacity: 1;
+}
+
+.h2_description {
+  transform: translate(0px,120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.h2_description._active {
+  transform: translate(0px,0px);
+  opacity: 1;
+  transition: all 0.8s ease 0.4s;
+}
+
