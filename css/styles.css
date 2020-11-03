@@ -3991,11 +3991,11 @@ input[type=button].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: black !important;
+  color: white !important;
 }
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
-  color: white !important;
+  color: black !important;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -10199,6 +10199,8 @@ body {
     transition: none;
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -10213,7 +10215,7 @@ body {
     color: #000000;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000000;
+    color: #000000 !important;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -10284,7 +10286,7 @@ body {
   }
   .masthead h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
 
